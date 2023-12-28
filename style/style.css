@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: beige;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: bisque;
+    border-radius: 3px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact-info p {
+    margin: 5px 0;
+}
+
+h2 {
+    color: #333;
+}
+
+section {
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+section img{
+    height: 170px; 
+    height: 170px; 
+    border-radius: 8px;
+}
+
+.left-section {
+    padding: 20px;
+    background-color:antiquewhite;
+    width: 50%;
+    border-radius: 2px;
+
+}
+
+.right-section {
+    padding: 20px;
+    background-color: rgb(245, 241, 202);
+    border-radius: 2px;
+    width: 50%;
+
+}
+
+.left-section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.right-section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+    background-color: #0056b3;
+}
+
+#introduction{
+    background-color:rgb(247, 203, 210);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+#accomplished{
+    background-color: palegoldenrod;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    text-decoration: underline;
+}
+
+#accomplished p {
+    font-size: 1.5em;
+    max-width: 80%;
+}

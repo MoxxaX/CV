@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<style>
+nav{
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right:0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+    font-weight: 555;
+}
+
+nav a:hover {
+    color:beige; 
+}
+
+
+nav a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e982ca; 
+    transition: width 0.3s ease-in-out;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+</style>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="views/contact.html">Contact Information</a></li>
+            <li><a href="views/education.html">Education</a></li>
+            <li><a href="views/experience.html">Work Experience</a></li>
+            <li><a href="views/skills.html">Skills</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="left-section">
+            <img src="./views/img/peach.png" alt="">
+            <div id="contact-info">
+                <h1>I'm Geronimo Fidel</h1>
+            </div>
+            <div id="introduction">
+                <p>I excel in MySQL, particularly MariaDB, and possess the expertise to troubleshoot any software issues related to MySQL. Additionally, I have a strong aptitude for designing websites.</p>
+            </div>
+        </div>
+
+        <div class="right-section">
+            <div id="accomplished">
+                <p>I have successfully undertaken several noteworthy projects in recent years, including the development of a school website, the creation of an Instagram clone, and the implementation of several engaging Pygame applications.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
